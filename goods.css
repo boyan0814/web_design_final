@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1.2em; 
+	font-family: 微軟正黑體,microsoft jhenghei,新細明體,pmingliu,細明體,mingliu,標楷體,dfkai-sb,serif;
+}
+#topnav{
+	background: black;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+	padding-right: 150px;
+}
+
+/*--------*/
+
+
+/*--*/
+main{
+	margin-top: 50px;
+	margin-bottom: 50px; 
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+#table_div{
+	display: flex;
+	justify-content: center;
+}
+tbody img{
+	width: 100px;
+}
+
+#top_table{
+	background: black;
+}
+#top_table p{
+	color: white;
+	font-size: 10px;
+	height: 10px;
+}
+#top_table td{
+	width: 100px;
+}
+#table_div{
+	border-bottom: 1px solid;
+	color: gray;
+}
+
+/*---*/
+#btn{
+	display: flex;
+	justify-content: center;
+}
+#btn input{
+	margin: 10px;
+}
+/**/
+.btnTop{
+	margin: 0px;
+	padding: 0px;
+	display: flex;
+	justify-content: center;
+	border-bottom: 3px solid;
+}
+/**/
+footer{
+	background: #555;
+	color: #fff;
+	text-align: center;
+/*	*/
+	padding: 20px;
+}
+/*---*/
+.block a{
+	text-decoration: none;	
+	color: black;
+}
+
+@media(max-width: 1200px){
+	aside{
+		display: none;
+	}
+}
+@media(max-width: 1400px){
+	#ad_pic{
+		display: none;	
+	}
+}

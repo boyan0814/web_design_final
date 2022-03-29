@@ -1,0 +1,125 @@
+body{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1.2em; 
+	font-family: 微軟正黑體,microsoft jhenghei,新細明體,pmingliu,細明體,mingliu,標楷體,dfkai-sb,serif;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+#topnav{
+	background: black;
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+	padding-right: 150px;
+}
+#topnav li{
+	display: inline;
+	width: 100px;
+	text-align: center;
+}
+#topnav li+li{
+	border-left: #fff 1px solid;
+}
+#topnav li a{
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	height: 11px;
+	padding: 10px;
+}
+/*--------*/
+
+#topmenu {
+	display: flex;
+	justify-content: center;
+	max-height: 100px;
+	width: 80%;
+	margin: 0 auto;
+}
+#logo img{
+	width: 100px;
+	margin: 10px;
+	padding-right: 50px;
+}
+#menu{
+	padding-top: 50px;
+	height: 10px;
+}
+#topmenu li{
+	display: inline;
+	font-size: 20px;
+/*	padding: 10px;*/
+	text-decoration: none;
+}
+
+/*---------------*/
+#create{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+
+.table_show th{
+	text-align: right;
+}
+
+.table_show{
+	margin-left: 100px;
+}
+
+#plc_tel{
+	width: 30px;
+}
+
+#inbox{
+	display: block;
+	border:1px solid;
+	padding: 5px;
+	width: 30%;
+}
+#inbox h3{
+	text-align: center;
+}
+
+
+#email input{
+	width: 180px;
+}
+#address input{
+	width: 180px;
+}
+
+
+.data{
+	padding: 10px;
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 150px;
+}
+.btn_submit{
+	margin-top: 40px;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+/*---*/
+footer{
+	background: #555;
+	color: #fff;
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+}
+/*-----*/
+@media(max-width: 1400px){
+	#ad_pic{
+		display: none;	
+	}
+}
